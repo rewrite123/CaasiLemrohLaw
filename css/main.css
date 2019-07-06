@@ -94,6 +94,9 @@
   height: 700px;
   /* padding-bottom: 200px; */
 }
+.align-icon-to-text{
+  vertical-align:middle;
+}
 @media only screen and (max-width: 600px){
   .image-backdrop-lg{
     background-repeat: no-repeat;
