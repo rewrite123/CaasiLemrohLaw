@@ -79,20 +79,17 @@
   width: 250px !important;
   height: 250px !important;
 }
-
 .carousel-item-text-content {
   position: fixed;
   top: 220px;
 }
-
 .carousel-item-text-content .card-panel {
   padding: 10px;
 }
-
 .carousel-lg {
-  /* overflow: visible; */
-  height: 700px;
-  /* padding-bottom: 200px; */
+  overflow: visible;
+  height: 300px;;
+  margin-bottom: 200px;
 }
 .align-icon-to-text{
   vertical-align:middle;
