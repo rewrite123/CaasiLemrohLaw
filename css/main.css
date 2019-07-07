@@ -92,9 +92,9 @@ html, body {
   padding: 10px;
 }
 .carousel-lg {
-  overflow: visible;
+  /* overflow: visible; */
   height: 250px;
-  max-width: 100%;
+  /* max-width: 100%; */
 }
 .align-icon-to-text{
   vertical-align: middle;
