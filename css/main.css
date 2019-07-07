@@ -92,7 +92,7 @@ html, body {
   padding: 10px;
 }
 .carousel-lg {
-  /* overflow: visible; */
+  overflow: visible;
   height: 250px;
   /* max-width: 100%; */
 }
@@ -127,6 +127,9 @@ tabs .tab a:hover, .tabs .tab a.active {
   color: #ffffff;
 }
 @media only screen and (max-width: 600px){
+  .carousel-lg {
+    overflow: hidden;
+  }
   .image-backdrop-lg{
     background-repeat: no-repeat;
     background-size: cover;
