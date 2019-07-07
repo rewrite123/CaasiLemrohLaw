@@ -134,10 +134,10 @@ tabs .tab a:hover, .tabs .tab a.active {
   }
   .carousel-lg {
     overflow: hidden;
-    height: 500px;
+    height: 450px;
   }
   .carousel .carousel-item{
-    top: -120px;
+    top: -100px;
   }
   .image-backdrop-lg{
     background-repeat: no-repeat;
