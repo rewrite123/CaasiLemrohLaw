@@ -129,6 +129,9 @@ tabs .tab a:hover, .tabs .tab a.active {
   color: #ffffff;
 }
 @media only screen and (max-width: 600px){
+  h3{
+    font-size: 30px;
+  }
   .carousel-container-lg{
     padding-bottom: 5px;
   }
