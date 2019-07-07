@@ -1,3 +1,8 @@
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
 .image-backdrop-lg {
   background-repeat: no-repeat;
   background-size: cover;
@@ -89,9 +94,10 @@
 .carousel-lg {
   overflow: visible;
   height: 250px;
+  max-width: 100%;
 }
 .align-icon-to-text{
-  vertical-align:middle;
+  vertical-align: middle;
 }
 .maskara-darken{
   background: linear-gradient( rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05) );
