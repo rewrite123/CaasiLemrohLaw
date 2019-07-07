@@ -79,7 +79,9 @@ html, body {
 .justify-text {
   text-align: justify;
 }
-
+.carousel-container-lg{
+  padding-bottom: 250px;
+}
 .carousel-item-force-lg {
   width: 250px !important;
   height: 250px !important;
@@ -127,8 +129,15 @@ tabs .tab a:hover, .tabs .tab a.active {
   color: #ffffff;
 }
 @media only screen and (max-width: 600px){
+  .carousel-container-lg{
+    padding-bottom: 5px;
+  }
   .carousel-lg {
     overflow: hidden;
+    height: 500px;
+  }
+  .carousel .carousel-item{
+    top: -120px;
   }
   .image-backdrop-lg{
     background-repeat: no-repeat;
